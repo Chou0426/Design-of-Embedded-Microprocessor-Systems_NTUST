@@ -11,6 +11,10 @@ from serial import Serial
 train_img = train_img / 255.0
 test_img = test_img / 255.0
 
+# plt.imshow(np.reshape(train_img[100, :], (28, 28)),cmap = plt.get_cmap('gray'))
+# plt.show()
+# print(train_label[100])
+
 #查看train, test資料筆數
 print('train_img_num = {}'.format(train_img.shape))
 print('test_img_num = {}'.format(test_img.shape))
